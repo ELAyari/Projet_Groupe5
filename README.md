@@ -44,6 +44,7 @@ git clone https://github.com/ELAyari/Projet_Groupe5.git
 Chaque membre crée une nouvelle branche pour sa fonctionnalité :
 
 git checkout -b feature/<nom_de_la_branche>
+
 Nasri a créé la branche feature/inscription pour la page d'inscription.
 
 Sarra a créé la branche feature/accueil pour la page d'accueil.
@@ -78,6 +79,7 @@ Validez les modifications avec un message descriptif :
 
 
 git commit -m "Description des modifications"
+
 Nasri a fait un commit pour la page d'inscription : git commit -m "Added registration page".
 
 Sarra a fait un commit pour la page d'accueil : git commit -m "Added home page".
@@ -96,6 +98,7 @@ Envoyez les modifications de votre branche vers GitHub :
 
 
 git push origin feature/<nom_de_la_branche>
+
 Nasri a poussé la branche feature/inscription.
 
 Sarra a poussé la branche feature/accueil.
@@ -117,6 +120,7 @@ git checkout main
 git pull origin main
 git merge feature/<nom_de_la_branche>
 git push origin main
+
 Nasri a fusionné feature/inscription dans main.
 
 Sarra a fusionné feature/accueil dans main.
@@ -136,6 +140,7 @@ Après avoir fusionné une branche, supprimez-la localement :
 
 
 git branch -d feature/<nom_de_la_branche>
+
 Nasri a supprimé feature/inscription.
 
 Sarra a supprimé feature/accueil.
@@ -153,6 +158,7 @@ Supprimez la branche distante après l'avoir fusionnée :
 
 
 git push origin --delete feature/<nom_de_la_branche>
+
 Nasri a supprimé feature/inscription.
 
 Sarra a supprimé feature/accueil.
