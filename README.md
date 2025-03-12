@@ -38,29 +38,27 @@ Yosr
 1. Cloner le Dépôt
 Pour commencer, clonez le dépôt sur votre machine locale :
 
-git clone <repository_url>
+git clone https://github.com/ELAyari/Projet_Groupe5.git
 
 2. Créer une Nouvelle Branche
 Chaque membre crée une nouvelle branche pour sa fonctionnalité :
 
 git checkout -b feature/<nom_de_la_branche>
-Nasri a créé la branche feature/registration pour la page d'inscription.
+Nasri a créé la branche feature/inscription pour la page d'inscription.
 
-Sarra a créé la branche feature/home pour la page d'accueil.
+Sarra a créé la branche feature/accueil pour la page d'accueil.
 
-Malek a créé la branche feature/search pour la page de recherche.
+Malek a créé la branche feature/recherche pour la page de recherche.
 
-Weal a créé la branche feature/login pour la page de connexion.
+Weal a créé la branche feature/connexion pour la page de connexion.
 
-Amal a créé la branche feature/profile pour la page de profil.
+Amal a créé la branche feature/profil pour la page de profil.
 
 Yosr a créé la branche feature/contact pour la page de contact.
 
 3. Ajouter des Fichiers
 Après avoir créé ou modifié des fichiers, ajoutez-les à l'index Git :
 
-
-git add <nom_du_fichier>
 
 Nasri a ajouté registration.html et inscription.md.
 
@@ -98,15 +96,15 @@ Envoyez les modifications de votre branche vers GitHub :
 
 
 git push origin feature/<nom_de_la_branche>
-Nasri a poussé la branche feature/registration.
+Nasri a poussé la branche feature/inscription.
 
-Sarra a poussé la branche feature/home.
+Sarra a poussé la branche feature/accueil.
 
-Malek a poussé la branche feature/search.
+Malek a poussé la branche feature/recherche.
 
-Weal a poussé la branche feature/login.
+Weal a poussé la branche feature/connexion.
 
-Amal a poussé la branche feature/profile.
+Amal a poussé la branche feature/profil.
 
 Yosr a poussé la branche feature/contact.
 
@@ -119,15 +117,15 @@ git checkout main
 git pull origin main
 git merge feature/<nom_de_la_branche>
 git push origin main
-Nasri a fusionné feature/registration dans main.
+Nasri a fusionné feature/inscription dans main.
 
-Sarra a fusionné feature/home dans main.
+Sarra a fusionné feature/accueil dans main.
 
-Malek a fusionné feature/search dans main.
+Malek a fusionné feature/recherche dans main.
 
-Weal a fusionné feature/login dans main.
+Weal a fusionné feature/connexion dans main.
 
-Amal a fusionné feature/profile dans main.
+Amal a fusionné feature/profil dans main.
 
 Yosr a fusionné feature/contact dans main.
 
@@ -138,15 +136,15 @@ Après avoir fusionné une branche, supprimez-la localement :
 
 
 git branch -d feature/<nom_de_la_branche>
-Nasri a supprimé feature/registration.
+Nasri a supprimé feature/inscription.
 
-Sarra a supprimé feature/home.
+Sarra a supprimé feature/accueil.
 
-Malek a supprimé feature/search.
+Malek a supprimé feature/recherche.
 
-Weal a supprimé feature/login.
+Weal a supprimé feature/connexion.
 
-Amal a supprimé feature/profile.
+Amal a supprimé feature/profil.
 
 Yosr a supprimé feature/contact.
 
@@ -155,14 +153,14 @@ Supprimez la branche distante après l'avoir fusionnée :
 
 
 git push origin --delete feature/<nom_de_la_branche>
-Nasri a supprimé feature/registration.
+Nasri a supprimé feature/inscription.
 
-Sarra a supprimé feature/home.
+Sarra a supprimé feature/accueil.
 
-Malek a supprimé feature/search.
+Malek a supprimé feature/recherche.
 
-Weal a supprimé feature/login.
+Weal a supprimé feature/connexion.
 
-Amal a supprimé feature/profile.
+Amal a supprimé feature/profil.
 
 Yosr a supprimé feature/contact.
